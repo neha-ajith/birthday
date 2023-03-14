@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('./font.css');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.about-wrapper p{
+    @apply text-2xl mt-5;
+}
+
+.heading{
+    @apply text-6xl md:text-7xl font-banner;
+}
+
+.button-wrapper{
+    @apply flex justify-center p-5;
+}
+
+.button{
+    @apply bg-button py-1 px-2 rounded-xl shadow-inner hover:bg-red-600;
+}
+
+.emoji{
+    @apply h-7 w-7 ml-1 inline;
+}
+
+
