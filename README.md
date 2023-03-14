@@ -1,2 +1,2 @@
 # birthday
-The one with I coded with my one braincell.
+The one with I coded with my final braincell.
